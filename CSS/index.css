@@ -1,0 +1,51 @@
+.botao{
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    color: black;
+    border-radius: 16px;
+    
+}
+
+
+.botao:hover{
+    background-color: yellow;
+    text-decoration: solid;
+}
+.comeco{
+    justify-content: flex-end;
+    padding-right: 100px;
+    gap: 10px;
+    display: flex;
+
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+
+.fotos{
+display: flex;
+justify-content: space-between;
+margin: 40px;
+}
+.atracao{
+    padding-left: 550px;
+}
+.foto_palavra{
+padding-left: 80px;
+}
+
+
+
+
+ header{
+    background-color: black;
+    color: white;
+ }
+footer{
+    background-color:black ;
+    color: white;
+}
