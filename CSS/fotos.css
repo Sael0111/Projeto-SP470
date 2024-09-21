@@ -8,6 +8,8 @@
 }
 h1{
     margin:20px;
+    display: flex;
+    justify-content: center;
 }
 a{
     margin:10px;
@@ -37,6 +39,6 @@ footer{
         color:white;
         justify-content: center;
         display:flex;
-
+        padding: 10px;
     }
 }
