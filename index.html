@@ -5,47 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>avenida Paulista</title>
     <link rel="stylesheet" href="./CSS/index.css">
-    <link rel="icon" href="img/icons8-cidade-50.png"> 
+    <link rel="icon" href="img/icons8-town-50.png"> 
 </head>
 <body>
-    <header >
+    <header class="navegacao">
+        <nav>
             <ul class="comeco"> 
-                <a href="index.html">Home</a>
-                <a href="historia.html">História</a>
-                <a href="foto.html">Fotos</a>
+              <a href="index.html">Home</a>
+              <a href="historia.html">História</a>
+              <a href="foto.html">Fotos</a>
             </ul>
-        
-    </header >
-        <div class="texto">
-    <h1>Avenida Paulista</h1>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lorem lectus, porttitor id fermentum quis, ornare vitae massa. Quisque sed risus ut diam porttitor rutrum. Praesent et orci lobortis, congue sapien vitae, vulputate turpis. Nulla enim nunc, consequat non dapibus sed, facilisis eu tortor. Sed luctus ultricies mollis. Nam dictum eu velit sed tincidunt. Suspendisse scelerisque magna vitae sapien luctus molestie.
-        Phasellus velit metus, iaculis sed sapien et, tincidunt semper quam. Phasellus scelerisque arcu turpis, vel mollis eros pretium ac. Duis a mauris leo. Suspendisse ac libero at orci tempus mattis in sed massa. Phasellus laoreet ex vel lorem imperdiet, et mollis leo fringilla. Maecenas viverra ligula mollis vulputate luctus. Maecenas sollicitudin id mauris sit amet molestie. Nulla lobortis pretium justo, maximus pretium turpis aliquam et. Curabitur ut tincidunt ipsum, a maximus nunc. Maecenas efficitur consequat nunc. Praesent fermentum nisl leo, sit amet facilisis dui viverra sed. Sed sed feugiat ante, sit amet finibus magna.
-        Donec tempus, felis a facilisis pharetra, sapien felis sollicitudin orci, nec tristique ligula nibh semper neque. Mauris eget sapien id turpis ultrices pharetra id fermentum leo. Pellentesque rutrum facilisis tincidunt. Duis condimentum sem quis accumsan lacinia. Donec consectetur nec leo eget facilisis. Integer dui est, interdum ullamcorper mauris vel, scelerisque tempus odio. Nunc auctor commodo ultrices.</h3>
+        </nav>
+    </header>
+    <div class="texto">
+        <div id="titulo">
+            <p class="avenida">Avenida</p>
+            <p id="paulista" class="avenida">Paulista</p>
+        </div>    
+        <h3 class="parag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lorem lectus, porttitor id fermentum quis, ornare vitae massa. Quisque sed risus ut diam porttitor rutrum. Praesent et orci lobortis, congue sapien vitae, vulputate turpis. Nulla enim nunc, consequat non dapibus sed, facilisis eu tortor. Sed luctus ultricies mollis. Nam dictum eu velit sed tincidunt. Suspendisse scelerisque magna vitae sapien luctus molestie.
+        Phasellus velit metus, in felis sollicitudin orci, nec tristique ligula nibh semper neque. Mauris eget sapien id turpis ultrices pharetra id fermentum leo. Pellentesque rutrum facilisis tincidunt. Duis condimentum sem quis accumsan lacinia. Donec consectetur nec leo eget facilisis. Integer dui est, interdum ullamcorper mauris vel, scelerisque tempus odio. Nunc auctor commodo ultrices.</h3>
     </div>
+
+
         <style>
             .texto{
-                background-image: url(img/img_1.jpeg);
+                background-image: url(img/index/paulista.jpg);
             }
+
         </style>
+
+
     </section>
+
     <h1 class="atracao">Pricipais atrações</h1>
        <section class="fotos">
-        <img class="img2"  src="img/img_1.jpeg" alt="">
-       <img class="img2" src="img/casa_rosas.jpeg" alt=""> 
-       <img class="img2" src="img/sesc.jpeg" alt="">
+        <div class="principais">
+          <a hraf="https://masp.org.br"><img class="img2"  src="img/index/img_1.jpeg.jpg" alt=""></a>
+          <h2>Maps</h2>
+        </div>
+        <div class="principais">
+          <a href="https://www.casadasrosas.org.br/institucional/"><img class="img2" src="img/index/casa_rosas.jpeg.jpg" alt=""> </a>
+          <h2>Casa Das Rosas</h2>
+       </div>
+       <div class="principais">
+         <a href="https://www.sesc.com.br"><img class="img2" src="img/index/sesc.jpeg.jpg" alt=""></a>
+         <h2>Sesc</h2>
+       </div>
     </section>
     <h1 class="foto_palavra">Fotos</h1>
     <section class="fotos">
-      <img class="img2" src="img/imagem3.jpeg" alt=""> 
-      <img class="img2" src="img/imagem4.jpeg" alt=""> 
-      <img class="img2" src="img/imagem6.jpeg" alt=""> 
-      <img class="img2" src="img/imagem5.jpeg" alt="">
+      <img class="img2" src="img/index/imagem3.jpeg.jpg" alt=""> 
+      <img class="img2" src="img/index/imagem4.jpeg.jpg" alt=""> 
+      <img class="img2" src="img/index/imagem6.jpeg.jpg" alt=""> 
+      <img class="img2" src="img/index/imagem5.jpeg.jpg" alt="">
     </section>
-</section class='lateral_botao'>
-      <button class="botao">Mais fotos</button>
-</section>
+      <div class='lateral_botao'>
+        <a href="foto.html"><button class="botao">Mais fotos</button></a>
+      </div>
     <footer>
-        <p>©Todos direitos reservados-2024 </p>
+       <section class="dir">
+        <p class="direitos">©Todos direitos reservados-2024 </p>
+    </section>
+    
     </footer>
 </body>
 </html>
