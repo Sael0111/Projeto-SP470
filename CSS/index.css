@@ -36,8 +36,10 @@ padding:10px;
     margin-left: 800px;
     padding: 70px;
     display: flex;
-    align-items: center;
+    align-items: center;    
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
 }
 .tabela{
     width: 100%;
@@ -58,7 +60,9 @@ padding:10px;
     font-size: 40px;
 }
 .texto{
+    font-size: larger;
     color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .botao:hover{
@@ -87,7 +91,7 @@ justify-content: space-between;
 margin: 40px;
 }
 .atracao{
-    padding-left: 550px;
+    padding-left: 630px;
     padding-top:10px;
 }
 .foto_palavra{
