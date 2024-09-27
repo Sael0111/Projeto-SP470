@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navegacao{
+    height:20px;
+}
+h1{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    margin:10px;
+    text-decoration: none;
+    color:white;
+
+}
+.comeco{
+    display:flex;
+    justify-content:flex-end;
+    text-decoration:solid;
+    background-color:black;
+}
+.video-fundo {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+.video{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-items: center;
+    align-items: center;
+}
+.escolha{
+    display: flex;
+    color: black;
+    align-items: end;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.tema{
+    background-color: brown;
+    border-radius: 15px;
+    font-size: 15px;
+    margin: 15px;
+    height: 100px;
+    width: 500px;
+    box-shadow: -10px 10px  rgb(105, 33, 33);
+}
+.cores{
+    background-color: brown;
+    border-radius: 15px;
+    font-size: 15px;
+    margin: 15px;
+    height: 100px;
+    width: 500px;
+    box-shadow: -10px 10px rgb(105, 33, 33);
+}
+.aluno{
+    display:flex;
+    justify-content: space-between;
+    h2{
+
+    }
+}
+.alunos{
+    background-color: rgb(28, 28, 28);
+    color:white;
+    height: 100px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: -10px 10px rgb(0, 0, 0);
+    display: flex;
+    margin: 30px;
+    align-items: center;
+}
+.instagram{
+    height: 70px;
+    width: 70px;
+}
+.redes{
+    height: 50px;
+    width: 50px;
+}
+@media (max-width:500px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .navegacao{
+        height:20px;
+    }
+    h1{
+        margin:20px;
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        margin:10px;
+        text-decoration: none;
+        color:white;
+    
+    }
+    .comeco{
+        display:flex;
+        justify-content:flex-end;
+        text-decoration:solid;
+        background-color:black;
+    }
+    .escolha{
+        display: flex;
+       flex-direction: column;
+
+    }
+    .tema, .cores{
+        height: 150px;
+        width: 300px;
+    }
+    .aluno{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+    }
+}
