@@ -134,150 +134,6 @@ footer{
         padding: 10px;
     }
 }
-@media screen (min-width:501px) and (max-width:900px){
-    *{
-        margin:0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-    .navegacao{
-        width: 100%;
-    }
-    a{
-        margin:10px;
-        text-decoration: none;
-        color:white;
-    
-    }
-    .comeco{
-        display:flex;
-        justify-content:flex-end;
-        text-decoration:solid;
-        background-color:black;
-    }
-    .masp{
-        height:566px;
-        width:20px;
-        display:flex;
-    }
-    .origem{
-       display: flex;
-       margin: 1px;
-
-       p{
-        padding-bottom: 30px;
-        font-size: small;
-       }
-    
-    }
-    .origem1{
-        margin:10px;
-    }
-    .paragrafo{
-        font-size:10px;
-        display: flex;
-        justify-content: right;
-    }
-    .paulista{
-        display: flex;
-        justify-content:space-between;
-        align-items:center;
-        padding-top:30px;
-        padding:20px;
-    }
-    #foto1{
-        height: 260px;
-        width: 450px;
-        border-radius: 30px;
-        padding-right:30px;
-        padding-left: 10px;
-    }
-    .div1{
-        flex-direction: column;
-        background-color: rgb(202, 55, 55);
-        border-radius: 15px;
-        height: 300px;
-        width: 900px;
-        margin-left: 10px;
-        p{
-            font-size: 10px;
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-    }
-    #mc{
-        height: 260px;
-        width: 450px;
-        border-radius: 30px;
-        padding-right:30px;
-        padding-left: 10px;
-    
-    }
-    #calcada{
-        height: 260px;
-        width: 450px;
-        border-radius: 30px;
-        padding-right:30px;
-        padding-left: 10px;
-        display:flex;
-        align-items: end;
-        justify-content: flex-end;
-    
-    }
-     .curiosidades{
-        h1{
-            display:flex;
-            align-items: center;
-            margin:50px;
-        }
-     }
-    .referencias{
-    
-        background-color: rgb(202, 55, 55);
-        border-radius: 15px;
-        height: 120px;
-        width: 300px;
-        margin-top:100px;
-        margin-right: 10px;
-        margin: 25px;
-        p{
-         padding-bottom: 30px;
-         font-size: 10px;
-         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-    }
-    .referencia{
-        display:flex;
-        margin-bottom: 10px;
-    }
-    .nome{
-        display:flex;
-        height: 300px;
-        width: 100%;
-    }
-    .mudança{
-        background-color: rgb(202, 55, 55);
-        border-radius: 15px;
-        height: 150px;
-        width: 500px;
-        margin: 20px;
-        p{
-         padding-bottom: 30px;
-         font-size: 10px;
-         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-    }
-    footer{
-        background-color: black;
-        width:100%;
-        height: 50px;
-        p{
-            color:white;
-            justify-content: center;
-            display:flex;
-            padding: 10px;
-        }
-    }
-}
 @media (max-width:500px){
     *{
         margin:0px;
@@ -300,15 +156,13 @@ footer{
         background-color:black;
     }
     .masp{
-        height:295px;
-        width:20px;
+        height:300px;
+        width:160px;
         display:flex;
     }
     .origem{
        display: flex;
-       margin: 1px;
-       flex-direction: row;
-       height: 100px;
+       height: 50px;
        p{
         padding-bottom: 30px;
         font-size: small;
@@ -316,10 +170,11 @@ footer{
     
     }
     .origem1{
-        margin:10px;
+
         display:flex;
         flex-direction: row;
-        height: 100px;
+        height: 50px;
+        
     }
     .paragrafo{
         font-size:10px;
@@ -328,8 +183,7 @@ footer{
     }
     .paulista{
         display: flex;
-        justify-content:baseline;
-        align-items:center;
+        flex-direction: column;
         padding-top:30px;
         padding:20px;
     }
@@ -345,12 +199,11 @@ footer{
         padding-left: 10px;
     }
     .div1{
-        align-items:last baseline;
         background-color: rgb(202, 55, 55);
         border-radius: 15px;
-        height: 400px;
+        height: 250px;
         width: 300px;
-        margin-left: 10px;
+        margin: 10px;
         p{
             font-size: 9px;
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -376,12 +229,13 @@ footer{
     
     }
      .curiosidades{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
         h1{
-            margin-top:30px;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            justify-items: center;
+            margin-top:50px;
+            margin-right: 100px;
+            padding: 50px;
         }
      }
     .referencias{
@@ -402,18 +256,24 @@ footer{
     .referencia{
         display:flex;
         margin-bottom: 10px;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
     }
     .nome{
         display:flex;
+        flex-direction: column;
+        align-items: center;
         height: 300px;
         width: 100%;
+        padding: 0px;
     }
     .mudança{
         background-color: rgb(202, 55, 55);
         border-radius: 15px;
         height: 150px;
-        width: 500px;
-        margin: 20px;
+        width: 300px;
+        margin: 10px;
         p{
          padding-bottom: 30px;
          font-size: 10px;
@@ -431,5 +291,4 @@ footer{
             padding: 10px;
         }
     }
-}
 }
